@@ -1,6 +1,7 @@
 {
   "name": "naturium-dashboard",
   "version": "1.0.0",
+  "type": "module",
   "description": "Interactive strategic analysis dashboard for Naturium skincare",
   "main": "dist/index.html",
   "scripts": {
