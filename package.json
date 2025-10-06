@@ -1,0 +1,35 @@
+{
+  "name": "naturium-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive strategic analysis dashboard for Naturium skincare",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:vercel": "VERCEL=true tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "dashboard",
+    "analytics",
+    "skincare",
+    "naturium",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "Amy Kniss",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41",
+    "@types/node": "^20.10.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.9.3",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  }
+}
